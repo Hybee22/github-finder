@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Github Finder</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      body {
+        font-family: "Montserrat";
+      }
+    </style>
+  </head>
+  <nav class="navbar navbar-dark bg-success mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">Finder App</a>
+    </div>
+  </nav>
+  <div class="container searchContainer">
+    <div class="search card card-body">
+      <h3 class="text-center">Find Github Users</h3>
+      <p class="lead text-center">
+        Enter username to fetch profile information and repositories
+      </p>
+      <input
+        type="text"
+        class="form-control"
+        id="searchUser"
+        placeholder="Enter Github Username..."
+      />
+    </div>
+    <br />
+    <div id="profile"></div>
+  </div>
+  <footer class="mt-5 p-3 text-success text-center bg-light">
+    Finder App &copy; 2019
+  </footer>
+  <body>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/github.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
